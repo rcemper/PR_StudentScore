@@ -10,7 +10,7 @@ The specific operations are as follows:
 
 2. Initialize student information table data. The initial data has been prepared and can be inserted directly.
 
-Execute command: W ##class(school.API).Api("InitSutdentInfo").%ToJSON()
+Execute command: W ##class(SCHOOL.Api).Api("InitStudentInfo").%ToJSON()
 
 
 
