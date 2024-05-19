@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="student-score.ZPM">
+    <Module>
+      <Name>student-score</Name>
+      <Version>2.0.0</Version>
+      <Description>Show abnormal conditions of Production in DeepSee</Description>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="SCHOOL.PKG"/>
+    </Module>
+  </Document>
+</Export>

@@ -1,5 +1,4 @@
-# first
-
+# Student Score Query
 
 This application is mainly used to modify and query students' subject scores
 
@@ -65,5 +64,27 @@ Order: sorting method, 1 asc, - 1 desc
 
 w ##Class(SCHOOL.Api).Api("SortByScore", "{""subject"":""art"",""passScore"":""60"",""order"":""1""}").%ToJSON()
 
+## Docker
+Namespace USER is loaded already to start with step #2    
+### Prerequisites
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
+### Installation
+Clone/git pull the repo into any local directory
+```
+$ git clone https://github.com/rcemper/PR_StudentScore.git
+```
+```
+$ docker compose up -d && docker compose logs -f
+```
+To open IRIS Terminal do:
+```
+$ docker-compose exec iris iris session iris
+USER>
+```
+or using **WebTerminal**    
 
-first
+http://localhost:42773/terminal/
+     
+To access IRIS System Management Portal     
+    
+http://localhost:42773/csp/sys/UtilHome.csp
